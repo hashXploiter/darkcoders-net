@@ -5,7 +5,7 @@
 DarkC0ders net is a open source botnet which is programmed in C#, using the .NET 2.0 Framework.
 
 
-# Coming Soon.....!!!
+
 
 # Panel Features!
 
@@ -14,6 +14,7 @@ DarkC0ders net is a open source botnet which is programmed in C#, using the .NET
   - Ability to have more than 1 user
   - User privileges
   - Action logs for all users
+  - Mobile/tab view optimized
 
 # HttpLoader Features!
 
@@ -37,7 +38,10 @@ DarkC0ders net is a open source botnet which is programmed in C#, using the .NET
 > I am not responsible anything 
 > you may used this botnet for. 
 
+### Setup Guide
 
+* See [SETUP GUIDE.md](https://github.com/hashXploiter/darkcoders-net/blob/master/SETUP%20GUIDE.md)
+* See [Setup video](https://youtu.be/N9_gGDHRjTI)
 
 ### CMS Default Login Credentials
 
