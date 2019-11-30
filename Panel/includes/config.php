@@ -1,11 +1,8 @@
 <?php
 $dbhost = "localhost"; 	// The host of your database
-$dbuser = "root"; 		// The database username
+$dbuser = ""; 		// The database username
 $dbpass = ""; 	// The database password
-$dbname = "litebot"; 		// The database name
-
-
-
+$dbname = "DarkC0ders"; 		// The database name
 
 $odb = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
 
@@ -48,6 +45,7 @@ function loggedIn($odb)
 	}
 }
 $deckey = $odb->query("SELECT stub_id FROM settings LIMIT 1")->fetchColumn(0);
+
 function encrypt($key, $stre)
 {
 	$rtn = mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $key, $stre, MCRYPT_MODE_CBC, $key);
